@@ -121,7 +121,7 @@ services:
     image: caddy:2.3.0
     container_name: caddy
     ports:
-      - "3000:3000"
+      - "80:3000"
       - "9090:9090"
       - "9093:9093"
       - "9091:9091"
